@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- website open krle upore je tittle ta thake -->
+    <title>Personal Portfolio</title>  
+
+    <!-- attaching css to html -->
+    <link rel="stylesheet" type="text/css" href="Asset/style.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- font import korsi google font theke -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Comforter+Brush&family=Dr+Sugiyama&family=Engagement&family=Fuggles&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- start header -->
+<!-- Portfolio logo ta ansi -->
+<header>
+    <a href="#" class="logo">Ahin</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+<!-- button gula add krsi -->
+    <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Skills</a></li>
+        <li><a href="#portfolio">Certificates</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+    <a href="#contact me" class="h-btn">Contact Me</a>
+</header>
+
+<!-- start home -->
+<!-- introduction  and email gula add korsi -->
+<section class="home" id="home">
+    <div class="home-text">
+        <h4>Hi,I am</h4>
+        <h1>Mubasshir <span>Ahin</span></h1>
+        <h3>A Photographer</h3>
+        <div class="newslatter">
+            <form>
+                <input type="email" name="email" id="mail" placeholder="Enter your Email">
+                <input type="submit" name="submit" value="Let's start">
+            </form>
+        </div>
+        <div class="social">
+        <a href="https://www.facebook.com/MubasshirAhin/"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/_.meh3di_"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/mubasshir_ahin"><i class="fa-brands fa-twitter"></i></a>
+        
+        <a href="https://www.youtube.com/channel/UC-alCSyajSPSnabflhAn3vQ"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://500px.com/p/mubasshir_ahi9"><i class="fa-brands fa-500px"></i></a>
+        
+    </div>
+        </div>
+</section>
+
+<!-- start about -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="./Asset/2021 (24).JPG">
+    </div>
+
+    <div class="about-text">
+        <h2>About Me</h2>
+        <h5>Photographer <span>& Designer</span></h5>
+        <p>I am a Landscape Photographer living in Chattogram,Bangladesh.I started shortly with Mobile Phone and then moved on to DSLR Camera.I loved taking photos,still do.It's been more than 4 years now and I'm far better than I was back then,more confident in my ability and still learning every day.<span id="dots">...</span><span id="more"><br><br>Camera: Nikon p900.<br>Lens: Fixed Lens.<br>Tripod: Yunteng VCT.<br>Mobile: K20 Pro.<br>Laptop: HP Elitebook 840 G3.<br>Photo Editing Software: Adobe Photoshop 2022.<br>Video Editing Software: Adobe Premier Pro.</span></p>
+        <!-- <a href="#" class="myBtn">My Equipments</a> -->
+        <button onclick="myFunction()" id="myBtn">My Equipments</button>
+    </div>
+</section>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    #more {display: none;}
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    
+    <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "My Equipments"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    
+    </body>
+
+
+
+
+<!-- start works -->
+<!-- first heading ta likhsi -->
+<section class="services" id="services">
+    <div class="center"> 
+        <h2>Skills</h2>
+        <p>That's all I can do a bit.</p>
+    </div>
+<!-- web development box gula banaisi 6 ta -->
+    <div class="service-content">
+        <div class="row">
+            <i class="fa-solid fa-camera"></i>
+            <h3>Photography</h3>
+            <p>It's been almost 4 years looking for the best picture I've ever clicked.</p>
+            
+        </div>
+
+        <div class="row">
+            <i class="fa-solid fa-eye-dropper"></i>
+            <h3>Editing</h3>
+            <p>Changing something according to my choice by giving colours.</p>
+            
+        </div>
+
+
+        <div class="row">
+            <i class="fa-solid fa-cube"></i>
+            <h3>Cube Solving</h3>
+            <p>I am a Sub-30 cuber right now and currently using the CFOP method. I use Beginner F2l, 2-Look OLL and 1-Look PLL to solve a cube.Though I'm not regular.</p>
+            
+        </div>
+        
+        <div class="row">
+            <i class="fa-solid fa-headset"></i>
+            <h3>Gaming</h3>
+            <p>I am a Former PUBG Mobile Esport player of the Lofty Royal Army Crew. About 1.5 years experience in Competitive Scenario.I played T2 Max lobby as well as some Underdog T1 lobby.</p>
+            
+        </div>
+
+        <div class="row">
+            <i class="fa-solid fa-code"></i>
+            <h3>Coding</h3>
+            <p>PYTHON</p>
+            
+        </div>
+
+        <div class="row">
+            <i class='bx bx-cast'></i>
+            <h3>Web Development</h3>
+            <p>HTML,CSS,JS</p>
+            
+        </div>
+
+
+
+
+    </div>
+</section>
+
+
+<!-- start certificates -->
+<!-- Heading gula likhsi -->
+<section class="portfolio" id="portfolio">
+    <div class="center"> 
+        <h2>My Certificates</h2>
+    </div>
+<!-- 6 ta chobi add krsi..more can be if you need -->
+    <div class="portfolio-content">
+        <div class="box">
+            <img src="Certificates/10ms3.jpg">
+            <p>10 Minute School</p>
+            <h5>Mobile Photography</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/upskills1.jpeg">
+            <p>Eduonix</p>
+            <h5>Producing a Short Film</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/Ghoori1.jpg">
+            <p>Ghoori Learning</p>
+            <h5>Basic Photography Course</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/10ms1.jpg">
+            <p>10 Minute School</p>
+            <h5>Weeding Photography</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/photoshopquiz1.JPG">
+            <p>Itronix Solutions</p>
+            <h5>Adobe Photoshop Quiz</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/Ghoori3.jpg">
+            <p>Ghoori Learning</p>
+            <h5>Professional Photography Buisness Course</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/Greatacademy1.jpg">
+            <p>Great Learning</p>
+            <h5>Python Fundementals</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/Programming_Hero1.jpg">
+            <p>Programming Hero</p>
+            <h5>Python Course 2021</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/taz_academy1.jpg">
+            <p>Taj Learning Academy</p>
+            <h5>Digital Photography Quiz</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/GreatAcademy2.jpg">
+            <p>Great Learning</p>
+            <h5>C Programming</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/GreatAcademy3.jpg">
+            <p>Great Learning</p>
+            <h5>Java Programming</h5>
+        </div>
+
+        <div class="box">
+            <img src="Certificates/upskills2.jpeg">
+            <p>Eduonix</p>
+            <h5>Learn Designing with Adobe Photoshop</h5>
+        </div>
+
+    </div>
+</section>
+
+<!-- start gallery -->
+<section class="gallery" id="gallery">
+    <!-- <div class="container">
+        <div class="heading">
+            <h3>Photo Gallery</h3>
+            <p>I am a student of class ssix in kukuukukukukukukuku.</p>
+        </div>
+
+        <div class="box">
+
+            <div class="dream">
+                <img src="./Fphotos/Fphoto1.jpg">
+                <img src="./Fphotos/Fphoto2.jpg">
+                <img src="./Fphotos/Fphoto3.jpg">
+                <img src="./Fphotos/Fphoto4.jpg">
+                <img src="./Fphotos/Fphoto5.jpg">
+            </div>
+            
+            <div class="dream">
+                <img src="./Fphotos/Fphoto6.jpg">
+                <img src="./Fphotos/Fphoto7.jpg">
+                <img src="./Fphotos/Fphoto8.jpg">
+                <img src="./Fphotos/Fphoto9.jpg">
+                <img src="./Fphotos/Fphoto10.jpg">
+            </div>
+
+
+            <div class="dream">
+                <img src="./Fphotos/Fphoto11.jpg">
+                <img src="./Fphotos/Fphoto12.jpg">
+                <img src="./Fphotos/Fphoto13.jpg">
+                <img src="./Fphotos/Fphoto14.jpg">
+                <img src="./Fphotos/Fphoto15.jpg">
+            </div>
+
+
+            <div class="dream">
+                <img src="./Fphotos/Fphoto16.jpg">
+                <img src="./Fphotos/Fphoto17.jpg">
+                <img src="./Fphotos/Fphoto18.jpg">
+                <img src="./Fphotos/Fphoto19.jpg">
+                <img src="./Fphotos/Fphoto20.jpg">
+            </div>
+        
+        </div>
+        <div class="btn">
+            <a href="#">More</a>
+        </div>
+
+
+
+
+
+
+
+    </div> -->
+
+    <div class="container">
+        <div class="heading">
+            <h3>Photo Gallery</h3>
+        </div>
+
+
+        <style type="text/css">
+            *{  padding: 0; margin:0; box-sizing: border-box; }
+            body{
+                background: black;
+                padding: 10px;
+            }
+    
+            .masorny{
+                columns: 3;
+                column-gap: 16px;
+    
+            }
+    
+            img{
+                width: 100%;
+                border-radius: 5px;
+            }
+            .grid-images{
+                display: inline-block;
+                margin-bottom: 16px;
+                position: relative;
+            }
+            .grid-images img:hover{
+                transform: scale(1.0875);
+            }
+
+            @media (max-width: 992px){
+                .masorny{
+                    columns: 2;
+                }
+            
+            }
+    
+    
+    
+    
+        </style>
+    </head>
+    <body>
+        <div class="masorny">
+            <div class="grid-images">
+                <img src="./Fphotos/1.jpg">
+            </div>
+    
+            <div class="grid-images">
+                <img src="./Fphotos/2.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/3.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/4.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/5.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/6.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/7.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/8.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/9.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/10.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/11.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/12.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/13.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/14.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/15.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/16.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/17.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/18.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/19.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/20.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/21.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/22.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/23.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/24.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/25.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/26.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/27.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/28.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/29.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/30.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/31.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/32.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="Fphotos/33.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/34.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/35.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/36.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/37.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/38.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/39.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/40.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/41.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/42.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/43.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/44.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/45.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/46.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/47.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/48.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/49.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/50.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/51.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/52.jpg">
+            </div>
+            
+            <div class="grid-images">
+                <img src="./Fphotos/53.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/54.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/55.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/56.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/57.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/58.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/59.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/60.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/61.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/62.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/63.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/64.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/65.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/66.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/67.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/68.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/69.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/70.jpg">
+            </div>
+
+            
+            <div class="grid-images">
+                <img src="./Fphotos/71.jpg">
+            </div>
+            
+            <div class="grid-images">
+                <img src="./Fphotos/72.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/73.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/74.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/75.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/76.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/77.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/78.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/79.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/80.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/81.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/82.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/83.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/84.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/85.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/86.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/87.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/88.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/89.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/90.jpg">
+            </div>
+
+
+            <div class="grid-images">
+                <img src="./Fphotos/91.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/92.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/93.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/94.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/95.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/96.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/97.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/98.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/99.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/100.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/101.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/102.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/103.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/104.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/105.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/106.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/107.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/108.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/109.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/110.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/111.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/112.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/113.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/114.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/115.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/116.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/117.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/118.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/119.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/120.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/121.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/122.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/123.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/124.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/125.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/126.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/127.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/128.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/129.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/130.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/131.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/132.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/133.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/134.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/135.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/136.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/137.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/138.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/139.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/140.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/141.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/142.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/143.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/144.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/145.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/146.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/147.jpg">
+            </div>
+
+            <div class="grid-images">
+                <img src="./Fphotos/148.jpg">
+            </div>
+
+
+
+
+
+
+
+        
+
+    
+
+
+
+        </div>
+    
+    </body>
+</section>
+
+
+
+
+<!-- start contact me -->
+<!-- likha gula add korsi and box gula banaisi -->
+<section class="contact me" id="contact me">
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <p> Email: mubasshirahin@gmail.com<br>Number: 01630588015</p>
+        <form action="https://formsubmit.co/a39b97932f4d890730a14110784a6a3d" method="POST">
+            <input type="" placeholder="Your Name" required>
+            <input type="email" name="" id="" placeholder="Your Email" required>
+            <input type="" placeholder="Write a subject" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required>
+            </textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+<!-- contact r image add disi -->
+
+</section>
+
+
+
+<!-- start footer -->
+<div class="footer">
+    <p>© 2022 Mubasshir Ahin. All Rights Reserved.</p>
+</div>
+
+<!-- link to js -->
+    <script type="text/javascript" src="Asset/script.js"></script>
+
+<!-- animaion ta ansi -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Mubasshir Ahin."," A Photographer."],
+            typeSpeed: 70,
+            backspeed: 60,
+            loop:true
+        });
+    </script>
+</body>
+</html>
